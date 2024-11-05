@@ -1,4 +1,11 @@
-Water Level and Pressure Monitoring System for Dam Infrastructure  
+![Alt text](AltiumSheet.jpeg)
+
+University: Technical University of Cluj-Napoca  
+Course: The technology of electronic microsystems    
+Author: Daniil Zabunov  
+Year:2022  
+ 
+Water Level and Pressure Monitoring System for Dam Infrastructure   
 
 This project consists of a PCB design for a water level and pressure monitoring system, specifically developed for dam infrastructure applications.  
 The system is designed to monitor water levels and detect potential pressure points on the materials used in dam construction. This system is intended to ensure safe and stable operation by providing real-time data on critical measurements.  
@@ -9,7 +16,6 @@ The PCB design includes the following key components:
 
 ![Demo GIF](View3D.gif)
 
-
 -ATtiny2313 Microcontroller: Responsible for managing sensor data and communication protocols.  
 -AD7705 Analog-to-Digital Converter (ADC): Utilized for precise conversion of sensor analog signals to digital, enabling accurate water level and pressure measurements.  
 -RS485 Communication Interface: Allows data transmission over long distances, which is essential for industrial applications where the monitoring station may be far from the data collection point.  
@@ -17,6 +23,8 @@ The PCB design includes the following key components:
 -LM7805 Voltage Regulator: Provides stable 5V output for components, converting from an input voltage of 12V.  
 
 Schematic Description  
+
+![Alt text](View2D.jpeg)
 
 The system operates by receiving data from a water level and pressure sensor connected to the PCB.  
 The sensor data is then converted from analog to digital signals using the AD7705 ADC. The ATtiny2313 microcontroller processes this data and transmits it through the RS485 communication protocol.  

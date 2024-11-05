@@ -3,7 +3,7 @@
 University: Technical University of Cluj-Napoca  
 Course: The technology of electronic microsystems    
 Author: Daniil Zabunov  
-Year:2022  
+Year: 2022  
  
 Water Level and Pressure Monitoring System for Dam Infrastructure   
 
